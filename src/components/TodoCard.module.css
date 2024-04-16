@@ -1,0 +1,54 @@
+.card {
+    border: .1rem solid rgba(175, 175, 175, 0.301);
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+.btnEditar,
+.btnEliminar {
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btnEditar {
+    background-color: var(--succesfully);
+}
+
+.iconEdit,
+.iconDelete {
+    height: 2rem;
+    width: 2rem;
+}
+
+.btnEliminar {
+    background-color: var(--danger);
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color: rgba(146, 146, 146, 0.722);
+}
+
+.noThrough {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,27 @@
+:root {
+    --primary: #1d4ed8;
+    --primary-dark: #1e40af;
+    --danger: #b91c1c;
+    --danger-dark: #991b1b;
+    --succesfully: #16a34a;
+    --succesfully-dark: #166534; 
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+

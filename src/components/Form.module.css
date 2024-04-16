@@ -1,0 +1,39 @@
+.form {
+    margin: 4rem 0;
+}
+
+.textBox {
+    all: unset;
+    border-bottom: .1rem solid rgba(184, 184, 184, 0.412);
+    width: 25rem;
+    margin-right: 2rem;
+    padding: .5rem;
+}
+
+@media (min-width: 750px) {
+    .textBox {
+        width: 50rem;
+        font-size: 1.8rem;
+    }
+}
+
+.btnAdd {
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    padding: .8rem;
+    font-weight: bold;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.btnAdd:hover {
+    background-color: var(--primary-dark);
+}
+
+@media (min-width: 750px) {
+    .btnAdd {
+        padding: 1rem;
+        font-size: 1.8rem;
+    }
+}
